@@ -1,4 +1,5 @@
 import pokemonArray from './data/pokemon.js';
+console.log( pokemonArray.length );
 
 const searchBar = document.createElement( 'section' );
 const mainContainer = document.querySelector( 'main' );
@@ -34,7 +35,8 @@ document.body.insertBefore( searchBar, mainContainer );
 
 const renderPokemon = ( pokemonList ) =>
 {
-  let html = ''; // Initialize an empty string to store the HTML
+  let html = '';
+
   for ( let i = 0; i < pokemonList.length; i++ )
   {
     const pokemon = pokemonList[ i ];
@@ -50,7 +52,6 @@ const renderPokemon = ( pokemonList ) =>
       pokemonType = `${ pokemon.types[ 0 ] }`;
     }
 
-    // Append the HTML for each Pokemon to the `html` string
     html += `
     <section class="card">
       <article class="card__content">
@@ -64,7 +65,7 @@ const renderPokemon = ( pokemonList ) =>
       </article>
     </section>`;
   }
-  // Finally, append the entire HTML string to the `main` container
+
   document.querySelector( 'main' ).innerHTML = html;
 };
 
@@ -90,3 +91,5 @@ document.getElementById( 'typeFilter' ).addEventListener( 'change', filterPokemo
 document.getElementById( 'resultsNumber' ).addEventListener( 'input', filterPokemon );
 
 filterPokemon();
+
+
