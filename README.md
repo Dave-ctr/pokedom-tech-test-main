@@ -25,8 +25,8 @@
   - Search by name
   - Be able to change the number of results
   - Filter by available types
-  - Allow for multiple pokemon types:
-  - <!-- pokemonType = pokemon.types.slice(0, -1).join(', ') + ` & ${pokemon.types[pokemon.types.length - 1]}`; -->
+  - Allow for multiple pokemon types
+ <!-- pokemonType = pokemon.types.slice(0, -1).join(', ') + ` & ${pokemon.types[pokemon.types.length - 1]}`; -->
 
 ## Final Product
 
