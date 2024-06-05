@@ -1,6 +1,6 @@
 # Pokédom Tech Test
 
-## Requirements
+## Test Requirements
 
 - Using the array of pokémon and your knowledge of DOM manipulation in
   JavaScript, display information about 151 pokémon on your site
@@ -8,6 +8,8 @@
   is `script.js`. However feel free to play around with the `index.html` to find
   out how all the styles work.
 - This should be hosted from your repository using GitHub Pages.
+
+### <a href='https://davejamieson.github.io/pokedom-tech-test-main/'>See My Solution Here!!</a>
 
 ## Notes
 
