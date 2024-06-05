@@ -9,7 +9,7 @@
   out how all the styles work.
 - This should be hosted from your repository using GitHub Pages.
 
-### <a href='https://davejamieson.github.io/pokedom-tech-test-main/'>See My Solution Here!!</a>
+### <a href='https://davejamieson.github.io/pokedom-tech-test-main/'>See My Solution In Action Here!!</a>
 
 ## Notes
 
